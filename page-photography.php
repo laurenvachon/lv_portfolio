@@ -1,3 +1,4 @@
+<!-- Photography template -->
 <?php
 /*
   Template Name: photography

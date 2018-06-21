@@ -657,64 +657,64 @@ section.fullPanel {
   width: 100%;
 }
 
-.interiorPage, .blog {
+.page-template-page-work, .page-photography {
   background-color: #f8f8f8;
 }
 
-.interiorPage.journal.list .fullPanel .listItems .listItem, .blog.journal.list .fullPanel .listItems .listItem {
+.page-template-page-work.journal.list .fullPanel .listItems .listItem, .page-photography.journal.list .fullPanel .listItems .listItem {
   margin: 0 0 50px;
 }
 
-.interiorPage.journal.list .fullPanel .listItems .listItem .listImage, .blog.journal.list .fullPanel .listItems .listItem .listImage {
+.page-template-page-work.journal.list .fullPanel .listItems .listItem .listImage, .page-photography.journal.list .fullPanel .listItems .listItem .listImage {
   height: 250px;
   background-size: cover;
   background-position: center;
   display: block;
 }
 
-.interiorPage.journal.list .fullPanel .listItems .listItem .listImage::after, .blog.journal.list .fullPanel .listItems .listItem .listImage::after {
+.page-template-page-work.journal.list .fullPanel .listItems .listItem .listImage::after, .page-photography.journal.list .fullPanel .listItems .listItem .listImage::after {
   padding-top: 100%;
   display: block;
   content: '';
 }
 
-.interiorPage.journal.list .fullPanel .listItems .listItem .listText, .blog.journal.list .fullPanel .listItems .listItem .listText {
+.page-template-page-work.journal.list .fullPanel .listItems .listItem .listText, .page-photography.journal.list .fullPanel .listItems .listItem .listText {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.interiorPage.journal.detail .fullPanel p, .blog.journal.detail .fullPanel p {
+.page-template-page-work.journal.detail .fullPanel p, .page-photography.journal.detail .fullPanel p {
   font-size: 1.4em;
   line-height: 1.7em;
 }
 
-.interiorPage.journal.detail .fullPanel .imagePull img, .blog.journal.detail .fullPanel .imagePull img {
+.page-template-page-work.journal.detail .fullPanel .imagePull img, .page-photography.journal.detail .fullPanel .imagePull img {
   width: 100%;
 }
 
-.interiorPage.journal .fullPanel .fullWidthJ img, .blog.journal .fullPanel .fullWidthJ img {
+.page-template-page-work.journal .fullPanel .fullWidthJ img, .page-photography.journal .fullPanel .fullWidthJ img {
   width: 100%;
 }
 
-.interiorPage.sunsetpsychic .fullPanel .showWork .mobiledevice p, .blog.sunsetpsychic .fullPanel .showWork .mobiledevice p {
+.page-template-page-work.page-sunset-psychic .fullPanel .showWork .mobiledevice p, .page-photography.page-sunset-psychic .fullPanel .showWork .mobiledevice p {
   margin-top: 20px;
 }
 
-.interiorPage.work .overview .toolsUsed, .blog.work .overview .toolsUsed {
+.page-template-page-work.work .overview .toolsUsed, .page-photography.work .overview .toolsUsed {
   color: #FF8689;
 }
 
-.interiorPage.work .overview .launchDate, .blog.work .overview .launchDate {
+.page-template-page-work.work .overview .launchDate, .page-photography.work .overview .launchDate {
   color: #a1a1a1;
 }
 
-.interiorPage.work .overview .award, .blog.work .overview .award {
+.page-template-page-work.work .overview .award, .page-photography.work .overview .award {
   font-size: 1.2em;
   margin: 0 0 15px;
 }
 
-.interiorPage.work .imgFullWidth, .blog.work .imgFullWidth {
+.page-template-page-work.work .imgFullWidth, .page-photography.work .imgFullWidth {
   max-width: 100%;
   margin-top: 30px;
   left: 50%;
@@ -724,45 +724,45 @@ section.fullPanel {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.interiorPage.work .imgHalfWidth, .blog.work .imgHalfWidth {
+.page-template-page-work.work .imgHalfWidth, .page-photography.work .imgHalfWidth {
   width: 49%;
   vertical-align: top !important;
   margin-top: 30px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.interiorPage.work .fullPanel.challenge, .blog.work .fullPanel.challenge {
+.page-template-page-work.work .fullPanel.challenge, .page-photography.work .fullPanel.challenge {
   background: #FFA35A;
 }
 
-.interiorPage.work .fullPanel.challenge h1, .interiorPage.work .fullPanel.challenge h2, .interiorPage.work .fullPanel.challenge h3, .interiorPage.work .fullPanel.challenge h4, .interiorPage.work .fullPanel.challenge h5, .interiorPage.work .fullPanel.challenge h6, .interiorPage.work .fullPanel.challenge p, .interiorPage.work .fullPanel.challenge ul, .interiorPage.work .fullPanel.challenge li, .interiorPage.work .fullPanel.challenge a, .blog.work .fullPanel.challenge h1, .blog.work .fullPanel.challenge h2, .blog.work .fullPanel.challenge h3, .blog.work .fullPanel.challenge h4, .blog.work .fullPanel.challenge h5, .blog.work .fullPanel.challenge h6, .blog.work .fullPanel.challenge p, .blog.work .fullPanel.challenge ul, .blog.work .fullPanel.challenge li, .blog.work .fullPanel.challenge a {
+.page-template-page-work.work .fullPanel.challenge h1, .page-template-page-work.work .fullPanel.challenge h2, .page-template-page-work.work .fullPanel.challenge h3, .page-template-page-work.work .fullPanel.challenge h4, .page-template-page-work.work .fullPanel.challenge h5, .page-template-page-work.work .fullPanel.challenge h6, .page-template-page-work.work .fullPanel.challenge p, .page-template-page-work.work .fullPanel.challenge ul, .page-template-page-work.work .fullPanel.challenge li, .page-template-page-work.work .fullPanel.challenge a, .page-photography.work .fullPanel.challenge h1, .page-photography.work .fullPanel.challenge h2, .page-photography.work .fullPanel.challenge h3, .page-photography.work .fullPanel.challenge h4, .page-photography.work .fullPanel.challenge h5, .page-photography.work .fullPanel.challenge h6, .page-photography.work .fullPanel.challenge p, .page-photography.work .fullPanel.challenge ul, .page-photography.work .fullPanel.challenge li, .page-photography.work .fullPanel.challenge a {
   color: #fff;
 }
 
-.interiorPage.work .fullPanel.solution, .blog.work .fullPanel.solution {
+.page-template-page-work.work .fullPanel.solution, .page-photography.work .fullPanel.solution {
   background: #ff5a5f;
 }
 
-.interiorPage.work .fullPanel.solution h1, .interiorPage.work .fullPanel.solution h2, .interiorPage.work .fullPanel.solution h3, .interiorPage.work .fullPanel.solution h4, .interiorPage.work .fullPanel.solution h5, .interiorPage.work .fullPanel.solution h6, .interiorPage.work .fullPanel.solution p, .interiorPage.work .fullPanel.solution ul, .interiorPage.work .fullPanel.solution li, .interiorPage.work .fullPanel.solution a, .blog.work .fullPanel.solution h1, .blog.work .fullPanel.solution h2, .blog.work .fullPanel.solution h3, .blog.work .fullPanel.solution h4, .blog.work .fullPanel.solution h5, .blog.work .fullPanel.solution h6, .blog.work .fullPanel.solution p, .blog.work .fullPanel.solution ul, .blog.work .fullPanel.solution li, .blog.work .fullPanel.solution a {
+.page-template-page-work.work .fullPanel.solution h1, .page-template-page-work.work .fullPanel.solution h2, .page-template-page-work.work .fullPanel.solution h3, .page-template-page-work.work .fullPanel.solution h4, .page-template-page-work.work .fullPanel.solution h5, .page-template-page-work.work .fullPanel.solution h6, .page-template-page-work.work .fullPanel.solution p, .page-template-page-work.work .fullPanel.solution ul, .page-template-page-work.work .fullPanel.solution li, .page-template-page-work.work .fullPanel.solution a, .page-photography.work .fullPanel.solution h1, .page-photography.work .fullPanel.solution h2, .page-photography.work .fullPanel.solution h3, .page-photography.work .fullPanel.solution h4, .page-photography.work .fullPanel.solution h5, .page-photography.work .fullPanel.solution h6, .page-photography.work .fullPanel.solution p, .page-photography.work .fullPanel.solution ul, .page-photography.work .fullPanel.solution li, .page-photography.work .fullPanel.solution a {
   color: #fff;
 }
 
-.interiorPage.work .fullPanel.findings, .blog.work .fullPanel.findings {
+.page-template-page-work.work .fullPanel.findings, .page-photography.work .fullPanel.findings {
   background-color: #029b95;
 }
 
-.interiorPage.work .fullPanel.findings h2, .blog.work .fullPanel.findings h2 {
+.page-template-page-work.work .fullPanel.findings h2, .page-photography.work .fullPanel.findings h2 {
   color: #fff;
 }
 
-.interiorPage.work .fullPanel .researchdiv, .blog.work .fullPanel .researchdiv {
+.page-template-page-work.work .fullPanel .researchdiv, .page-photography.work .fullPanel .researchdiv {
   display: block;
   float: left;
   margin: 20px 0;
   width: 100%;
 }
 
-.interiorPage.work .fullPanel .infoBox, .blog.work .fullPanel .infoBox {
+.page-template-page-work.work .fullPanel .infoBox, .page-photography.work .fullPanel .infoBox {
   padding: 3%;
   background: #fff;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
@@ -772,11 +772,11 @@ section.fullPanel {
   transform: translateX(-50%);
 }
 
-.interiorPage.work .fullPanel .infoBox .about p, .blog.work .fullPanel .infoBox .about p {
+.page-template-page-work.work .fullPanel .infoBox .about p, .page-photography.work .fullPanel .infoBox .about p {
   font-size: 1.2em;
 }
 
-.interiorPage.work .fullPanel .infoBox .stats ul, .blog.work .fullPanel .infoBox .stats ul {
+.page-template-page-work.work .fullPanel .infoBox .stats ul, .page-photography.work .fullPanel .infoBox .stats ul {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
@@ -787,7 +787,7 @@ section.fullPanel {
 }
 
 @media (max-width: 768px) {
-  .interiorPage.work .fullPanel .infoBox .stats ul, .blog.work .fullPanel .infoBox .stats ul {
+  .page-template-page-work.work .fullPanel .infoBox .stats ul, .page-photography.work .fullPanel .infoBox .stats ul {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
@@ -797,62 +797,62 @@ section.fullPanel {
   }
 }
 
-.interiorPage.work .fullPanel .infoBox .stats ul li, .blog.work .fullPanel .infoBox .stats ul li {
+.page-template-page-work.work .fullPanel .infoBox .stats ul li, .page-photography.work .fullPanel .infoBox .stats ul li {
   font-size: 1.35em;
   list-style: none;
 }
 
-.interiorPage.work .fullPanel .infoBox .goals ol, .blog.work .fullPanel .infoBox .goals ol {
+.page-template-page-work.work .fullPanel .infoBox .goals ol, .page-photography.work .fullPanel .infoBox .goals ol {
   padding: 0 0 0 15px;
 }
 
-.interiorPage.work .fullPanel.research, .blog.work .fullPanel.research {
+.page-template-page-work.work .fullPanel.research, .page-photography.work .fullPanel.research {
   background: #f2f2f2;
 }
 
-.interiorPage.work .fullPanel.finalscreens, .blog.work .fullPanel.finalscreens {
+.page-template-page-work.work .fullPanel.finalscreens, .page-photography.work .fullPanel.finalscreens {
   background: #f2f2f2;
 }
 
-.interiorPage.work .showWork img, .blog.work .showWork img {
+.page-template-page-work.work .showWork img, .page-photography.work .showWork img {
   max-width: 100%;
 }
 
-.interiorPage.work .showWork .row, .blog.work .showWork .row {
+.page-template-page-work.work .showWork .row, .page-photography.work .showWork .row {
   margin: 200px 0 0;
   text-align: center;
 }
 
 @media (max-width: 515px) {
-  .interiorPage.work .showWork .row, .blog.work .showWork .row {
+  .page-template-page-work.work .showWork .row, .page-photography.work .showWork .row {
     margin: 50px 0 0;
   }
 }
 
-.interiorPage.work .showWork .row:nth-child(1), .blog.work .showWork .row:nth-child(1) {
+.page-template-page-work.work .showWork .row:nth-child(1), .page-photography.work .showWork .row:nth-child(1) {
   margin: 0;
 }
 
 @media (max-width: 425px) {
-  .interiorPage.work .showWork .row .mobiledevice, .blog.work .showWork .row .mobiledevice {
+  .page-template-page-work.work .showWork .row .mobiledevice, .page-photography.work .showWork .row .mobiledevice {
     margin: 0 0 55px 0;
   }
 }
 
-.interiorPage.work .showWork .screenshots img, .blog.work .showWork .screenshots img {
+.page-template-page-work.work .showWork .screenshots img, .page-photography.work .showWork .screenshots img {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.interiorPage.work .userControls, .blog.work .userControls {
+.page-template-page-work.work .userControls, .page-photography.work .userControls {
   padding: 3%;
   background-color: #f2f2f2;
 }
 
-.interiorPage.work .userControls .arrows.prev, .blog.work .userControls .arrows.prev {
+.page-template-page-work.work .userControls .arrows.prev, .page-photography.work .userControls .arrows.prev {
   padding-left: 40px;
 }
 
-.interiorPage.work .userControls .arrows.prev a:before, .blog.work .userControls .arrows.prev a:before {
+.page-template-page-work.work .userControls .arrows.prev a:before, .page-photography.work .userControls .arrows.prev a:before {
   content: "\f177";
   font-family: FontAwesome;
   position: absolute;
@@ -862,18 +862,18 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .interiorPage.work .userControls .arrows.prev a:before, .blog.work .userControls .arrows.prev a:before {
+  .page-template-page-work.work .userControls .arrows.prev a:before, .page-photography.work .userControls .arrows.prev a:before {
     left: 0;
     font-size: 25px;
   }
 }
 
-.interiorPage.work .userControls .arrows.next, .blog.work .userControls .arrows.next {
+.page-template-page-work.work .userControls .arrows.next, .page-photography.work .userControls .arrows.next {
   padding-right: 40px;
   text-align: right;
 }
 
-.interiorPage.work .userControls .arrows.next a:before, .blog.work .userControls .arrows.next a:before {
+.page-template-page-work.work .userControls .arrows.next a:before, .page-photography.work .userControls .arrows.next a:before {
   content: "\f178";
   font-family: FontAwesome;
   position: absolute;
@@ -883,13 +883,13 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .interiorPage.work .userControls .arrows.next a:before, .blog.work .userControls .arrows.next a:before {
+  .page-template-page-work.work .userControls .arrows.next a:before, .page-photography.work .userControls .arrows.next a:before {
     right: 0;
     font-size: 25px;
   }
 }
 
-.interiorPage.work .userControls .arrows a, .blog.work .userControls .arrows a {
+.page-template-page-work.work .userControls .arrows a, .page-photography.work .userControls .arrows a {
   font-size: 30px;
   color: #ff5a5f;
   transition: all .2s;
@@ -898,73 +898,73 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .interiorPage.work .userControls .arrows a, .blog.work .userControls .arrows a {
+  .page-template-page-work.work .userControls .arrows a, .page-photography.work .userControls .arrows a {
     font-size: 20px;
   }
 }
 
-.interiorPage.work .userControls .arrows a:hover, .blog.work .userControls .arrows a:hover {
+.page-template-page-work.work .userControls .arrows a:hover, .page-photography.work .userControls .arrows a:hover {
   color: #FFA35A;
   border-bottom: 3px solid #FFA35A;
   text-decoration: none;
 }
 
-.interiorPage.work .userControls .arrows a span, .blog.work .userControls .arrows a span {
+.page-template-page-work.work .userControls .arrows a span, .page-photography.work .userControls .arrows a span {
   font-size: 1.1em;
   line-height: 1.3em;
 }
 
 @media (max-width: 415px) {
-  .interiorPage.work .userControls .arrows a span, .blog.work .userControls .arrows a span {
+  .page-template-page-work.work .userControls .arrows a span, .page-photography.work .userControls .arrows a span {
     font-size: .7em;
   }
 }
 
-.interiorPage.work .userControls .arrows a span.hidden-xs, .blog.work .userControls .arrows a span.hidden-xs {
+.page-template-page-work.work .userControls .arrows a span.hidden-xs, .page-photography.work .userControls .arrows a span.hidden-xs {
   font-weight: 600;
 }
 
-.interiorPage .intro, .blog .intro {
+.page-template-page-work .intro, .page-photography .intro {
   padding: 130px 7% 90px;
 }
 
 @media (max-width: 768px) {
-  .interiorPage .intro, .blog .intro {
+  .page-template-page-work .intro, .page-photography .intro {
     padding: 90px 7%;
   }
 }
 
 @media (max-width: 515px) {
-  .interiorPage .intro, .blog .intro {
+  .page-template-page-work .intro, .page-photography .intro {
     padding: 90px 10px 0;
   }
 }
 
-.interiorPage .intro h1, .blog .intro h1 {
+.page-template-page-work .intro h1, .page-photography .intro h1 {
   font-size: 5em;
   margin: 0 0 10px;
 }
 
 @media (max-width: 1175px) {
-  .interiorPage .intro h1, .blog .intro h1 {
+  .page-template-page-work .intro h1, .page-photography .intro h1 {
     font-size: 3.5em;
   }
 }
 
 @media (max-width: 515px) {
-  .interiorPage .intro h1, .blog .intro h1 {
+  .page-template-page-work .intro h1, .page-photography .intro h1 {
     font-size: 2.8em;
   }
 }
 
-.interiorPage .intro h2, .interiorPage .intro .h2, .blog .intro h2, .blog .intro .h2 {
+.page-template-page-work .intro h2, .page-template-page-work .intro .h2, .page-photography .intro h2, .page-photography .intro .h2 {
   font-size: 2em;
   line-height: 1.5em;
   margin: 0 0 15px;
   color: #029b95;
 }
 
-.interiorPage .fullPanel, .blog .fullPanel {
+.page-template-page-work .fullPanel, .page-photography .fullPanel {
   max-width: 1440px;
   margin: 0 auto;
 }

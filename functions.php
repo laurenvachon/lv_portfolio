@@ -36,4 +36,18 @@
     wp_enqueue_script( 'script_js' , get_template_directory_uri() . '/js/script.min.js', '', '', false );
   }
   add_action( 'wp_enqueue_scripts', 'lv_theme_js' );
+
+
+
+// add page name to body_class
+  function add_slug_body_class( $classes ) {
+  global $post;
+  if ( isset( $post ) ) {
+  $classes[] = $post->post_type . '-' . $post->post_name;
+  }
+  return $classes;
+  }
+  add_filter( 'body_class', 'add_slug_body_class' );
+
+
  ?>
