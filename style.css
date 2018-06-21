@@ -267,6 +267,11 @@ header ul.nav li {
   display: inline-block;
 }
 
+header ul.nav li.current-menu-item a {
+  color: #ff5a5f;
+  background-color: transparent;
+}
+
 header ul.nav li a {
   text-decoration: none;
   padding: 0 20px;
@@ -701,20 +706,26 @@ section.fullPanel {
   margin-top: 20px;
 }
 
-.page-template-page-work.work .overview .toolsUsed, .page-photography.work .overview .toolsUsed {
+.page-template-page-work .work, .page-photography .work {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.page-template-page-work .work .overview .toolsUsed, .page-photography .work .overview .toolsUsed {
   color: #FF8689;
 }
 
-.page-template-page-work.work .overview .launchDate, .page-photography.work .overview .launchDate {
+.page-template-page-work .work .overview .launchDate, .page-photography .work .overview .launchDate {
   color: #a1a1a1;
 }
 
-.page-template-page-work.work .overview .award, .page-photography.work .overview .award {
+.page-template-page-work .work .overview .award, .page-photography .work .overview .award {
   font-size: 1.2em;
   margin: 0 0 15px;
 }
 
-.page-template-page-work.work .imgFullWidth, .page-photography.work .imgFullWidth {
+.page-template-page-work .work .imgFullWidth, .page-photography .work .imgFullWidth {
   max-width: 100%;
   margin-top: 30px;
   left: 50%;
@@ -724,45 +735,45 @@ section.fullPanel {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.page-template-page-work.work .imgHalfWidth, .page-photography.work .imgHalfWidth {
+.page-template-page-work .work .imgHalfWidth, .page-photography .work .imgHalfWidth {
   width: 49%;
   vertical-align: top !important;
   margin-top: 30px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.page-template-page-work.work .fullPanel.challenge, .page-photography.work .fullPanel.challenge {
+.page-template-page-work .work .fullPanel.challenge, .page-photography .work .fullPanel.challenge {
   background: #FFA35A;
 }
 
-.page-template-page-work.work .fullPanel.challenge h1, .page-template-page-work.work .fullPanel.challenge h2, .page-template-page-work.work .fullPanel.challenge h3, .page-template-page-work.work .fullPanel.challenge h4, .page-template-page-work.work .fullPanel.challenge h5, .page-template-page-work.work .fullPanel.challenge h6, .page-template-page-work.work .fullPanel.challenge p, .page-template-page-work.work .fullPanel.challenge ul, .page-template-page-work.work .fullPanel.challenge li, .page-template-page-work.work .fullPanel.challenge a, .page-photography.work .fullPanel.challenge h1, .page-photography.work .fullPanel.challenge h2, .page-photography.work .fullPanel.challenge h3, .page-photography.work .fullPanel.challenge h4, .page-photography.work .fullPanel.challenge h5, .page-photography.work .fullPanel.challenge h6, .page-photography.work .fullPanel.challenge p, .page-photography.work .fullPanel.challenge ul, .page-photography.work .fullPanel.challenge li, .page-photography.work .fullPanel.challenge a {
+.page-template-page-work .work .fullPanel.challenge h1, .page-template-page-work .work .fullPanel.challenge h2, .page-template-page-work .work .fullPanel.challenge h3, .page-template-page-work .work .fullPanel.challenge h4, .page-template-page-work .work .fullPanel.challenge h5, .page-template-page-work .work .fullPanel.challenge h6, .page-template-page-work .work .fullPanel.challenge p, .page-template-page-work .work .fullPanel.challenge ul, .page-template-page-work .work .fullPanel.challenge li, .page-template-page-work .work .fullPanel.challenge a, .page-photography .work .fullPanel.challenge h1, .page-photography .work .fullPanel.challenge h2, .page-photography .work .fullPanel.challenge h3, .page-photography .work .fullPanel.challenge h4, .page-photography .work .fullPanel.challenge h5, .page-photography .work .fullPanel.challenge h6, .page-photography .work .fullPanel.challenge p, .page-photography .work .fullPanel.challenge ul, .page-photography .work .fullPanel.challenge li, .page-photography .work .fullPanel.challenge a {
   color: #fff;
 }
 
-.page-template-page-work.work .fullPanel.solution, .page-photography.work .fullPanel.solution {
+.page-template-page-work .work .fullPanel.solution, .page-photography .work .fullPanel.solution {
   background: #ff5a5f;
 }
 
-.page-template-page-work.work .fullPanel.solution h1, .page-template-page-work.work .fullPanel.solution h2, .page-template-page-work.work .fullPanel.solution h3, .page-template-page-work.work .fullPanel.solution h4, .page-template-page-work.work .fullPanel.solution h5, .page-template-page-work.work .fullPanel.solution h6, .page-template-page-work.work .fullPanel.solution p, .page-template-page-work.work .fullPanel.solution ul, .page-template-page-work.work .fullPanel.solution li, .page-template-page-work.work .fullPanel.solution a, .page-photography.work .fullPanel.solution h1, .page-photography.work .fullPanel.solution h2, .page-photography.work .fullPanel.solution h3, .page-photography.work .fullPanel.solution h4, .page-photography.work .fullPanel.solution h5, .page-photography.work .fullPanel.solution h6, .page-photography.work .fullPanel.solution p, .page-photography.work .fullPanel.solution ul, .page-photography.work .fullPanel.solution li, .page-photography.work .fullPanel.solution a {
+.page-template-page-work .work .fullPanel.solution h1, .page-template-page-work .work .fullPanel.solution h2, .page-template-page-work .work .fullPanel.solution h3, .page-template-page-work .work .fullPanel.solution h4, .page-template-page-work .work .fullPanel.solution h5, .page-template-page-work .work .fullPanel.solution h6, .page-template-page-work .work .fullPanel.solution p, .page-template-page-work .work .fullPanel.solution ul, .page-template-page-work .work .fullPanel.solution li, .page-template-page-work .work .fullPanel.solution a, .page-photography .work .fullPanel.solution h1, .page-photography .work .fullPanel.solution h2, .page-photography .work .fullPanel.solution h3, .page-photography .work .fullPanel.solution h4, .page-photography .work .fullPanel.solution h5, .page-photography .work .fullPanel.solution h6, .page-photography .work .fullPanel.solution p, .page-photography .work .fullPanel.solution ul, .page-photography .work .fullPanel.solution li, .page-photography .work .fullPanel.solution a {
   color: #fff;
 }
 
-.page-template-page-work.work .fullPanel.findings, .page-photography.work .fullPanel.findings {
+.page-template-page-work .work .fullPanel.findings, .page-photography .work .fullPanel.findings {
   background-color: #029b95;
 }
 
-.page-template-page-work.work .fullPanel.findings h2, .page-photography.work .fullPanel.findings h2 {
+.page-template-page-work .work .fullPanel.findings h2, .page-photography .work .fullPanel.findings h2 {
   color: #fff;
 }
 
-.page-template-page-work.work .fullPanel .researchdiv, .page-photography.work .fullPanel .researchdiv {
+.page-template-page-work .work .fullPanel .researchdiv, .page-photography .work .fullPanel .researchdiv {
   display: block;
   float: left;
   margin: 20px 0;
   width: 100%;
 }
 
-.page-template-page-work.work .fullPanel .infoBox, .page-photography.work .fullPanel .infoBox {
+.page-template-page-work .work .fullPanel .infoBox, .page-photography .work .fullPanel .infoBox {
   padding: 3%;
   background: #fff;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
@@ -772,11 +783,11 @@ section.fullPanel {
   transform: translateX(-50%);
 }
 
-.page-template-page-work.work .fullPanel .infoBox .about p, .page-photography.work .fullPanel .infoBox .about p {
+.page-template-page-work .work .fullPanel .infoBox .about p, .page-photography .work .fullPanel .infoBox .about p {
   font-size: 1.2em;
 }
 
-.page-template-page-work.work .fullPanel .infoBox .stats ul, .page-photography.work .fullPanel .infoBox .stats ul {
+.page-template-page-work .work .fullPanel .infoBox .stats ul, .page-photography .work .fullPanel .infoBox .stats ul {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
@@ -787,7 +798,7 @@ section.fullPanel {
 }
 
 @media (max-width: 768px) {
-  .page-template-page-work.work .fullPanel .infoBox .stats ul, .page-photography.work .fullPanel .infoBox .stats ul {
+  .page-template-page-work .work .fullPanel .infoBox .stats ul, .page-photography .work .fullPanel .infoBox .stats ul {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
@@ -797,62 +808,62 @@ section.fullPanel {
   }
 }
 
-.page-template-page-work.work .fullPanel .infoBox .stats ul li, .page-photography.work .fullPanel .infoBox .stats ul li {
+.page-template-page-work .work .fullPanel .infoBox .stats ul li, .page-photography .work .fullPanel .infoBox .stats ul li {
   font-size: 1.35em;
   list-style: none;
 }
 
-.page-template-page-work.work .fullPanel .infoBox .goals ol, .page-photography.work .fullPanel .infoBox .goals ol {
+.page-template-page-work .work .fullPanel .infoBox .goals ol, .page-photography .work .fullPanel .infoBox .goals ol {
   padding: 0 0 0 15px;
 }
 
-.page-template-page-work.work .fullPanel.research, .page-photography.work .fullPanel.research {
+.page-template-page-work .work .fullPanel.research, .page-photography .work .fullPanel.research {
   background: #f2f2f2;
 }
 
-.page-template-page-work.work .fullPanel.finalscreens, .page-photography.work .fullPanel.finalscreens {
+.page-template-page-work .work .fullPanel.finalscreens, .page-photography .work .fullPanel.finalscreens {
   background: #f2f2f2;
 }
 
-.page-template-page-work.work .showWork img, .page-photography.work .showWork img {
+.page-template-page-work .work .showWork img, .page-photography .work .showWork img {
   max-width: 100%;
 }
 
-.page-template-page-work.work .showWork .row, .page-photography.work .showWork .row {
+.page-template-page-work .work .showWork .row, .page-photography .work .showWork .row {
   margin: 200px 0 0;
   text-align: center;
 }
 
 @media (max-width: 515px) {
-  .page-template-page-work.work .showWork .row, .page-photography.work .showWork .row {
+  .page-template-page-work .work .showWork .row, .page-photography .work .showWork .row {
     margin: 50px 0 0;
   }
 }
 
-.page-template-page-work.work .showWork .row:nth-child(1), .page-photography.work .showWork .row:nth-child(1) {
+.page-template-page-work .work .showWork .row:nth-child(1), .page-photography .work .showWork .row:nth-child(1) {
   margin: 0;
 }
 
 @media (max-width: 425px) {
-  .page-template-page-work.work .showWork .row .mobiledevice, .page-photography.work .showWork .row .mobiledevice {
+  .page-template-page-work .work .showWork .row .mobiledevice, .page-photography .work .showWork .row .mobiledevice {
     margin: 0 0 55px 0;
   }
 }
 
-.page-template-page-work.work .showWork .screenshots img, .page-photography.work .showWork .screenshots img {
+.page-template-page-work .work .showWork .screenshots img, .page-photography .work .showWork .screenshots img {
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
 
-.page-template-page-work.work .userControls, .page-photography.work .userControls {
+.page-template-page-work .work .userControls, .page-photography .work .userControls {
   padding: 3%;
   background-color: #f2f2f2;
 }
 
-.page-template-page-work.work .userControls .arrows.prev, .page-photography.work .userControls .arrows.prev {
+.page-template-page-work .work .userControls .arrows.prev, .page-photography .work .userControls .arrows.prev {
   padding-left: 40px;
 }
 
-.page-template-page-work.work .userControls .arrows.prev a:before, .page-photography.work .userControls .arrows.prev a:before {
+.page-template-page-work .work .userControls .arrows.prev a:before, .page-photography .work .userControls .arrows.prev a:before {
   content: "\f177";
   font-family: FontAwesome;
   position: absolute;
@@ -862,18 +873,18 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .page-template-page-work.work .userControls .arrows.prev a:before, .page-photography.work .userControls .arrows.prev a:before {
+  .page-template-page-work .work .userControls .arrows.prev a:before, .page-photography .work .userControls .arrows.prev a:before {
     left: 0;
     font-size: 25px;
   }
 }
 
-.page-template-page-work.work .userControls .arrows.next, .page-photography.work .userControls .arrows.next {
+.page-template-page-work .work .userControls .arrows.next, .page-photography .work .userControls .arrows.next {
   padding-right: 40px;
   text-align: right;
 }
 
-.page-template-page-work.work .userControls .arrows.next a:before, .page-photography.work .userControls .arrows.next a:before {
+.page-template-page-work .work .userControls .arrows.next a:before, .page-photography .work .userControls .arrows.next a:before {
   content: "\f178";
   font-family: FontAwesome;
   position: absolute;
@@ -883,13 +894,13 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .page-template-page-work.work .userControls .arrows.next a:before, .page-photography.work .userControls .arrows.next a:before {
+  .page-template-page-work .work .userControls .arrows.next a:before, .page-photography .work .userControls .arrows.next a:before {
     right: 0;
     font-size: 25px;
   }
 }
 
-.page-template-page-work.work .userControls .arrows a, .page-photography.work .userControls .arrows a {
+.page-template-page-work .work .userControls .arrows a, .page-photography .work .userControls .arrows a {
   font-size: 30px;
   color: #ff5a5f;
   transition: all .2s;
@@ -898,29 +909,29 @@ section.fullPanel {
 }
 
 @media (max-width: 415px) {
-  .page-template-page-work.work .userControls .arrows a, .page-photography.work .userControls .arrows a {
+  .page-template-page-work .work .userControls .arrows a, .page-photography .work .userControls .arrows a {
     font-size: 20px;
   }
 }
 
-.page-template-page-work.work .userControls .arrows a:hover, .page-photography.work .userControls .arrows a:hover {
+.page-template-page-work .work .userControls .arrows a:hover, .page-photography .work .userControls .arrows a:hover {
   color: #FFA35A;
   border-bottom: 3px solid #FFA35A;
   text-decoration: none;
 }
 
-.page-template-page-work.work .userControls .arrows a span, .page-photography.work .userControls .arrows a span {
+.page-template-page-work .work .userControls .arrows a span, .page-photography .work .userControls .arrows a span {
   font-size: 1.1em;
   line-height: 1.3em;
 }
 
 @media (max-width: 415px) {
-  .page-template-page-work.work .userControls .arrows a span, .page-photography.work .userControls .arrows a span {
+  .page-template-page-work .work .userControls .arrows a span, .page-photography .work .userControls .arrows a span {
     font-size: .7em;
   }
 }
 
-.page-template-page-work.work .userControls .arrows a span.hidden-xs, .page-photography.work .userControls .arrows a span.hidden-xs {
+.page-template-page-work .work .userControls .arrows a span.hidden-xs, .page-photography .work .userControls .arrows a span.hidden-xs {
   font-weight: 600;
 }
 
@@ -965,26 +976,26 @@ section.fullPanel {
 }
 
 .page-template-page-work .fullPanel, .page-photography .fullPanel {
-  max-width: 1440px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
-.about section {
+.page-about section {
   padding: 7%;
   overflow: hidden;
 }
 
-.about section.resumeBox {
+.page-about section.resumeBox {
   padding: 0% 7% 7%;
 }
 
 @media (max-width: 515px) {
-  .about section.resumeBox {
+  .page-about section.resumeBox {
     padding: 70px 4% 7%;
   }
 }
 
-.about section .letterContainer {
+.page-about section .letterContainer {
   max-width: 1612px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.08);
   position: relative;
@@ -998,52 +1009,52 @@ section.fullPanel {
 }
 
 @media (max-width: 414px) {
-  .about section .letterContainer {
+  .page-about section .letterContainer {
     padding: 20px;
   }
 }
 
-.about section .letterContainer h1, .about section .letterContainer .h1 {
+.page-about section .letterContainer h1, .page-about section .letterContainer .h1 {
   font-size: 3.5em;
   line-height: 1.5em;
   margin: 0 0 15px;
 }
 
-.about section .letterContainer h2, .about section .letterContainer .h2 {
+.page-about section .letterContainer h2, .page-about section .letterContainer .h2 {
   font-size: 2em;
   line-height: 1.5em;
   margin: 0 0 15px;
 }
 
-.about section .letterContainer h3, .about section .letterContainer .h3 {
+.page-about section .letterContainer h3, .page-about section .letterContainer .h3 {
   color: #464646;
   font-size: 2em;
   line-height: 1em;
 }
 
-.about section .letterContainer h4, .about section .letterContainer .h4 {
+.page-about section .letterContainer h4, .page-about section .letterContainer .h4 {
   font-size: 1.7em;
   color: #029b95;
 }
 
-.about section .letterContainer .pageHeading {
+.page-about section .letterContainer .pageHeading {
   border-bottom: 1px solid #ccc;
   padding: 0 0 50px 0;
 }
 
-.about section .letterContainer .pageHeading h2 {
+.page-about section .letterContainer .pageHeading h2 {
   margin: 0;
 }
 
-.about section .letterContainer .leftSide {
+.page-about section .letterContainer .leftSide {
   padding: 10px;
 }
 
-.about section .letterContainer .leftSide .leftContainer {
+.page-about section .letterContainer .leftSide .leftContainer {
   margin-bottom: 30px;
 }
 
-.about section .letterContainer .leftSide .leftContainer.logo {
+.page-about section .letterContainer .leftSide .leftContainer.logo {
   padding: 30px 0;
   font-size: 60px;
   color: #029b95;
@@ -1056,63 +1067,63 @@ section.fullPanel {
   box-shadow: 2px 1px 11px rgba(0, 0, 0, 0.08);
 }
 
-.about section .letterContainer .leftSide .leftContainer.contact p {
+.page-about section .letterContainer .leftSide .leftContainer.contact p {
   margin-bottom: 5px;
 }
 
-.about section .letterContainer .leftSide .leftContainer.socialMedia a {
+.page-about section .letterContainer .leftSide .leftContainer.socialMedia a {
   display: block;
   font-size: 1.1em;
 }
 
-.about section .letterContainer .leftSide .leftContainer.socialMedia a:hover .fa, .about section .letterContainer .leftSide .leftContainer.socialMedia a:hover span {
+.page-about section .letterContainer .leftSide .leftContainer.socialMedia a:hover .fa, .page-about section .letterContainer .leftSide .leftContainer.socialMedia a:hover span {
   color: #FFA35A;
   text-decoration: underline;
 }
 
-.about section .letterContainer .leftSide .leftContainer.socialMedia a .fa, .about section .letterContainer .leftSide .leftContainer.socialMedia a span {
+.page-about section .letterContainer .leftSide .leftContainer.socialMedia a .fa, .page-about section .letterContainer .leftSide .leftContainer.socialMedia a span {
   color: #ff5a5f;
 }
 
-.about section .letterContainer .leftSide .leftContainer.skills ul li {
+.page-about section .letterContainer .leftSide .leftContainer.skills ul li {
   font-size: 1.1em;
 }
 
-.about section .letterContainer .leftSide .leftContainer.education {
+.page-about section .letterContainer .leftSide .leftContainer.education {
   display: none;
 }
 
-.about section .letterContainer .rightSide {
+.page-about section .letterContainer .rightSide {
   padding: 10px 0 0 40px;
   border-left: 1px solid #ccc;
 }
 
 @media (max-width: 768px) {
-  .about section .letterContainer .rightSide {
+  .page-about section .letterContainer .rightSide {
     border-left: 0;
     padding: 10px 0 40px 0;
     border-bottom: 1px solid #ccc;
   }
 }
 
-.about section .letterContainer .rightSide .exp {
+.page-about section .letterContainer .rightSide .exp {
   padding: 0;
 }
 
-.about section .letterContainer .rightSide .exp .job {
+.page-about section .letterContainer .rightSide .exp .job {
   margin-bottom: 20px;
   padding: 0;
 }
 
-.about section .letterContainer .rightSide .exp .job .company {
+.page-about section .letterContainer .rightSide .exp .job .company {
   margin: 0;
 }
 
-.about section .letterContainer .rightSide .exp .job p {
+.page-about section .letterContainer .rightSide .exp .job p {
   padding: 0;
 }
 
-.about section .letterContainer .rightSide .exp .job .position .title {
+.page-about section .letterContainer .rightSide .exp .job .position .title {
   font-weight: normal;
   padding: 0;
   line-height: 1.3em;
@@ -1120,103 +1131,103 @@ section.fullPanel {
   font-size: 1.2em;
 }
 
-.about section .letterContainer .rightSide .exp .job .position .year {
+.page-about section .letterContainer .rightSide .exp .job .position .year {
   text-align: right;
   color: #888888;
   margin-top: 10px;
 }
 
 @media (max-width: 768px) {
-  .about section .letterContainer .rightSide .exp .job .position .year {
+  .page-about section .letterContainer .rightSide .exp .job .position .year {
     text-align: left;
     margin-top: 0;
   }
 }
 
-.about section .letterContainer .rightSide .exp .job ul {
+.page-about section .letterContainer .rightSide .exp .job ul {
   margin-left: 25px;
 }
 
 @media (max-width: 515px) {
-  .about section .letterContainer .rightSide .exp .job ul {
+  .page-about section .letterContainer .rightSide .exp .job ul {
     margin-left: 15px;
   }
 }
 
 @media (max-width: 515px) {
-  .about section .letterContainer .rightSide .exp .job ul li {
+  .page-about section .letterContainer .rightSide .exp .job ul li {
     font-size: 1.1em;
   }
 }
 
 @media print {
-  .about header, .about footer {
+  .page-about header, .page-about footer {
     display: none;
   }
-  .about section {
+  .page-about section {
     padding: 0;
   }
-  .about section.intro {
+  .page-about section.intro {
     display: none;
   }
-  .about section .print {
+  .page-about section .print {
     display: none;
   }
-  .about section .letterContainer {
+  .page-about section .letterContainer {
     width: 612px;
     box-shadow: 0;
     padding: 0;
   }
-  .about section .letterContainer h1, .about section .letterContainer .h1 {
+  .page-about section .letterContainer h1, .page-about section .letterContainer .h1 {
     font-size: 1.4em;
   }
-  .about section .letterContainer h2, .about section .letterContainer .h2 {
+  .page-about section .letterContainer h2, .page-about section .letterContainer .h2 {
     font-size: 1.3em;
   }
-  .about section .letterContainer h3, .about section .letterContainer .h3 {
+  .page-about section .letterContainer h3, .page-about section .letterContainer .h3 {
     font-size: 1.2em;
     margin: 5px 0 10px 0;
   }
-  .about section .letterContainer h4, .about section .letterContainer .h4 {
+  .page-about section .letterContainer h4, .page-about section .letterContainer .h4 {
     font-size: 1.1em;
     font-weight: bold;
     color: #5f5f5f !important;
   }
-  .about section .letterContainer h5, .about section .letterContainer .h5 {
+  .page-about section .letterContainer h5, .page-about section .letterContainer .h5 {
     font-size: 1em !important;
     line-height: 1.1em;
   }
-  .about section .letterContainer h6, .about section .letterContainer .h6 {
+  .page-about section .letterContainer h6, .page-about section .letterContainer .h6 {
     font-size: .9em;
   }
-  .about section .letterContainer a {
+  .page-about section .letterContainer a {
     font-weight: normal;
   }
-  .about section .letterContainer a[href]:after {
+  .page-about section .letterContainer a[href]:after {
     content: none !important;
   }
-  .about section .letterContainer p, .about section .letterContainer li {
+  .page-about section .letterContainer p, .page-about section .letterContainer li {
     font-size: .8em;
   }
-  .about section .letterContainer .pageHeading {
+  .page-about section .letterContainer .pageHeading {
     padding: 0 0 10px 0;
   }
-  .about section .letterContainer .leftSide {
+  .page-about section .letterContainer .leftSide {
     width: 200px;
     padding: 5px 0 5px 30px;
     box-sizing: border-box;
     float: right;
   }
-  .about section .letterContainer .leftSide .leftContainer.socialMedia {
+  .page-about section .letterContainer .leftSide .leftContainer.socialMedia {
     display: none;
   }
-  .about section .letterContainer .leftSide .leftContainer.education {
+  .page-about section .letterContainer .leftSide .leftContainer.education {
     display: block !important;
   }
-  .about section .letterContainer .leftSide .leftContainer ul li {
+  .page-about section .letterContainer .leftSide .leftContainer ul li {
     font-size: .8em !important;
   }
-  .about section .letterContainer .rightSide {
+  .page-about section .letterContainer .rightSide {
     width: 411px;
     border-left: 0;
     padding: 5px 30px 5px 0;
@@ -1225,38 +1236,38 @@ section.fullPanel {
     border-right: 1px solid #ccc;
     border-bottom: 0;
   }
-  .about section .letterContainer .rightSide .exp .job ul {
+  .page-about section .letterContainer .rightSide .exp .job ul {
     margin-bottom: 0;
   }
-  .about section .letterContainer .rightSide .exp .job .position .title {
+  .page-about section .letterContainer .rightSide .exp .job .position .title {
     margin: 10px 0 0;
   }
-  .about section .letterContainer .rightSide .exp.education {
+  .page-about section .letterContainer .rightSide .exp.education {
     display: none !important;
   }
 }
 
-.page-template-page-photography {
+.page-photography {
   background-color: #f8f8f8;
 }
 
-.page-template-page-photography .fancybox-bg {
+.page-photography .fancybox-bg {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.page-template-page-photography .grid .grid-item {
+.page-photography .grid .grid-item {
   overflow: auto;
 }
 
-.page-template-page-photography .grid .grid-item .grid-item-content {
+.page-photography .grid .grid-item .grid-item-content {
   margin-bottom: 30px;
 }
 
-.page-template-page-photography .grid .grid-item .grid-item-content a.fancybox {
+.page-photography .grid .grid-item .grid-item-content a.fancybox {
   display: block !important;
 }
 
-.page-template-page-photography .grid .grid-item .grid-item-content a.fancybox img {
+.page-photography .grid .grid-item .grid-item-content a.fancybox img {
   width: 100%;
   padding: 0;
   border-radius: 0;
@@ -1264,7 +1275,7 @@ section.fullPanel {
   background: none;
 }
 
-.page-template-page-photography .fancybox-overlay {
+.page-photography .fancybox-overlay {
   background: rgba(255, 255, 255, 0.8) !important;
 }
 

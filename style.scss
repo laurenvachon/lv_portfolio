@@ -242,6 +242,12 @@ header {
     margin: 7px 0 0;
     li {
       display: inline-block;
+      &.current-menu-item {
+        a {
+          color: $primary-color;
+          background-color: transparent;
+        }
+      }
       a {
         text-decoration: none;
         padding: 0 20px;
@@ -726,7 +732,10 @@ section {
     }
   }
 
-  &.work {
+  .work {
+    margin: 0;
+    padding: 0;
+    float: left;
     .overview {
       .toolsUsed {
         color: $fourth-color;
@@ -968,14 +977,14 @@ section {
   }
 
   .fullPanel {
-    max-width: 1440px;
+    max-width: 1700px;
     margin: 0 auto;
   }
 }
 
 
 
-.about {
+.page-about {
 
   section {
     padding: 7%;
@@ -1279,7 +1288,7 @@ section {
   }
 }
 
-.page-template-page-photography {
+.page-photography {
   background-color: #f8f8f8;
 
   .fancybox-bg {
