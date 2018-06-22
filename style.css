@@ -565,6 +565,11 @@ section.fullPanel {
   }
 }
 
+.blogPostIndiv h1, .blogPostIndiv h2, .blogPostIndiv h3, .blogPostIndiv h4, .blogPostIndiv h5, .blogPostIndiv h6 {
+  max-width: 1000px;
+  margin: 15px auto;
+}
+
 .blogPostIndiv p {
   max-width: 1000px;
   margin: 15px auto;
