@@ -21,6 +21,8 @@
   </div>
 </section>
 
+
+
 <section class="fullPanel" data-aos="fade-up">
   <div class="grid">
     <div class="grid-sizer col-xs-12 col-sm-6 col-md-4"></div>
@@ -35,7 +37,7 @@
     <?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
     <div class="grid-item col-xs-12 col-sm-6 col-md-4">
       <div class="grid-item-content">
-        <a class="fancybox" href="<?php the_field('full_image')?>" data-fancybox="group">
+        <a class="fancybox" href="<?php the_field('full_image')?>" data-fancybox="group" data-caption="<?php the_field('caption')?>">
           <img class="img-responsive thumbs" src="<?php the_field('thumbnail')?>" alt="<?php ?>" />
         </a>
       </div>

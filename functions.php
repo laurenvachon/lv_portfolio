@@ -33,7 +33,7 @@
     wp_enqueue_script( 'fancybox_js' , 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js', '', '', false );
     wp_enqueue_script( 'typekit_js' , 'https://use.typekit.net/gzj6slz.js', '', '', false );
     wp_enqueue_script( 'typekitalso_js' , 'try{Typekit.load({ async: true });}catch(e){}', '', '', false );
-    wp_enqueue_script( 'script_js' , get_template_directory_uri() . '/js/script.min.js', '', '', false );
+    wp_enqueue_script( 'script_js' , get_template_directory_uri() . '/js/script.js', '', '', false );
   }
   add_action( 'wp_enqueue_scripts', 'lv_theme_js' );
 

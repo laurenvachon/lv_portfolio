@@ -177,7 +177,7 @@ if($("body").hasClass("page-template-page-photography")){
   // fancybox
   $("[data-fancybox]").fancybox({
   	speed : 630,
-    // transitionEffect: "fade",
+    transitionEffect: "fadeIn",
     image : {
 		    protect : true
 	  }
