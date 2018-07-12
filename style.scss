@@ -566,6 +566,8 @@ section {
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
     &.alignleft {
       margin-left: 200px !important;
       float: left;
@@ -573,6 +575,10 @@ section {
     &.alignright {
       margin-right: 200px !important;
       float: right;
+    }
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
 }
